@@ -15,9 +15,9 @@ KOZINTAI is a Moroccan recipe generator web app that could become a comprehensiv
 
 This web application allows users to give ingredients they have in their kitchen to the app and get recipe suggestions based on those ingredients. The application would use natural language processing technology to generate recipe suggestions and provide step-by-step instructions on how to make the meal. This could help users make the most of the ingredients they have and reduce food waste.
 
-> The app could suggest substitutes that would work well in the recipe (If a user is missing an ingredient or prefers a different ingredient).
-> The app could allow users to specify dietary restrictions, such as gluten-free or vegan, and generate recipes that meet those requirements.
-> The app could suggest recipes based on the season or time of year, featuring ingredients that are in season in Morocco.
+* The app could suggest substitutes that would work well in the recipe (If a user is missing an ingredient or prefers a different ingredient).
+* The app could allow users to specify dietary restrictions, such as gluten-free or vegan, and generate recipes that meet those requirements.
+* The app could suggest recipes based on the season or time of year, featuring ingredients that are in season in Morocco.
 
 
 
