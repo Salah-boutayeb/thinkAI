@@ -1,11 +1,12 @@
-# Calculate the dot product of the two arrays
-dot_product = np.dot(a, b)
+Input:
+fish, onions, garlic, green olives, olive oil, salt
 
-# Calculate the norm of the two arrays
-norm_a = np.linalg.norm(a)
-norm_b = np.linalg.norm(b)
+outputs: 
+[0.67123567]
+recipe title: Moroccan Chicken and Olive Tagine  ingridients:  Chicken thighs, onions, garlic, green olives, preserved lemons, ginger, saffron, cumin, coriander, parsley, olive oil, salt, black pepper.
 
-# Calculate the cosine similarity
-cosine_similarity = dot_product / (norm_a * norm_b)
+[0.66616119]
+recipe title: Fish Tagine with Tomatoes and Peppers  ingridients:  White fish fillets, onions, garlic, tomatoes, bell peppers, cilantro, parsley, ginger, cumin, paprika, saffron, olive oil, salt, black pepper.
 
-print("Cosine similarity between a and b:", cosine_similarity)
+[0.65400889]
+recipe title: Moroccan Tomato and Red Onion Salad  ingridients:  Tomatoes, red onions, garlic, cilantro, parsley, lemon juice, olive oil, salt, black pepper.

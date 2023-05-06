@@ -6,11 +6,11 @@ import json
 # Authenticate with OpenAI API
 # secrets = openai_secret_manager.get_secret("openai")
 # openai.api_key = secrets["api_key"]
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define function to generate recipe suggestions
 def generate_recipe_suggestions(ingredients, diet):
-    prompt = f"Generate a traditional Moroccan recipe using {', '.join(ingredients)} that is {diet} friendly."
+    prompt = f"Generate a traditional Moroccan recipe using {', '.join(ingredients)}. Be careful, The person has {diet}. Give a name to it, and calculate the calories"
     response = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt,
@@ -35,9 +35,9 @@ diet = input("Enter dietary restrictions: ")
 
 # Generate recipe suggestions and filter to only include traditional Moroccan recipes
 recipe_suggestions = []
-for i in range(5):
+for i in range(2):
     recipe = generate_recipe_suggestions(ingredients, diet)
-    print("> iteration")
+    print("> iteration: ")
     print(recipe)
     # if filter_moroccan_recipes(recipe):
     #     recipe_suggestions.append(recipe)
