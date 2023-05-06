@@ -1,0 +1,11 @@
+# Calculate the dot product of the two arrays
+dot_product = np.dot(a, b)
+
+# Calculate the norm of the two arrays
+norm_a = np.linalg.norm(a)
+norm_b = np.linalg.norm(b)
+
+# Calculate the cosine similarity
+cosine_similarity = dot_product / (norm_a * norm_b)
+
+print("Cosine similarity between a and b:", cosine_similarity)
