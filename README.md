@@ -10,6 +10,7 @@ The goal of this challenge is to develop a product that solves a real-world prob
 
 ## Welcome to KOZINTAI - Recipe generator
 
+" Transform your kitchen ingredients into delicious meals with our app, powered by natural language processing technology. "
 
 KOZINTAI is a Moroccan recipe generator web app that could become a comprehensive resource for Moroccan cuisine, catering to users with different preferences and skill levels, and promoting local food culture and sustainability ^^.
 
