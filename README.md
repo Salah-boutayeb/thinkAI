@@ -13,7 +13,7 @@ The goal of this challenge is to develop a product that solves a real-world prob
 
 KOZINTAI is a Moroccan recipe generator web app that could become a comprehensive resource for Moroccan cuisine, catering to users with different preferences and skill levels, and promoting local food culture and sustainability ^^.
 
-This web application allows users to give ingredients they have in their kitchen to the app and get recipe suggestions based on those ingredients. The application would use natural language processing technology to generate recipe suggestions and provide step-by-step instructions on how to make the meal. This could help users make the most of the ingredients they have and reduce food waste.
+This web application allows users to give ingredients they have in their kitchen to the app and get recipe suggestions based on those ingredients. The application uses natural language processing technology to generate recipe suggestions and provide step-by-step instructions on how to make the meal. This could help users make the most of the ingredients they have and reduce food waste.
 
 * The app could suggest substitutes that would work well in the recipe (If a user is missing an ingredient or prefers a different ingredient).
 * The app could allow users to specify dietary restrictions, such as gluten-free or vegan, and generate recipes that meet those requirements.
